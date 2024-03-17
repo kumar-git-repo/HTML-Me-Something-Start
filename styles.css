@@ -1,1 +1,44 @@
 /* Write your CSS here! */
+/* Body Styles */
+body {
+    margin: 6px; /* Add margin around the body */
+    display: block; /* Set display to block for proper layout */
+    font-family: Arial, sans-serif; /* Set a base font family */
+  }
+  
+  /* Header Styles */
+  header {
+    text-align: center; /* Center align the header content */
+    margin-bottom: 20px; /* Add some space after the header */
+    color: rgb(60, 0, 255); /* Changed the header content and header color*/
+  }
+  
+ h1#mainHeading {
+    color: red; /* Set color to red */
+    font-size: 2em; /* Increase heading font size slightly */
+  } 
+  
+  /* Main Content Styles */
+  main {
+    padding: 10px; /* Add padding for better readability */
+    margin-bottom: 20px; /* Add some space after the main content */
+    
+  }
+  
+  article {
+    margin-bottom: 10px; /* Add space between each article */
+    /*border-bottom: 1px solid #ca4949; /* Add a subtle border for separation */
+    padding: 10px; /* Add some padding inside each article */
+  }
+  
+  article img {
+    width: 100px; /* Set a fixed width for images */
+    margin-right: 15px; /* Add some margin to the right of images */
+    /*margin-left: 15px; /* experimenting by adding some margin to the left of images */
+    float: left; /* Float images to the left */
+  }
+  
+  p.funParagraph {
+    font-style: italic; /* Make the paragraph italic */
+    color: green; /* Set color to green */ 
+  }
